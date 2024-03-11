@@ -1,6 +1,5 @@
 particlesJS(
   "particles-js",
-
   {
     particles: {
       number: {
@@ -117,6 +116,8 @@ particlesJS(
       background_size: "cover",
     },
   }
+
+  
 );
 // mobile screen logic
 let mobilescreenwidth = window.innerWidth;
