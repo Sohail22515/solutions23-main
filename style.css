@@ -193,12 +193,13 @@ body {
 
 /* img gallery */
 
-.slider{
+#slider{
   /* max-width: 1000px; */
-  height: 250px;
+  height: 235px;
+  overflow: hidden;
   margin: auto;
   position: relative;
-  width: 90%;
+  width: 95%;
   display: grid;
   place-items: center;
 }
@@ -221,15 +222,6 @@ body {
   100%{
     transform: translateX(calc(-250px * 9));
   }
-}
-
-.slide{
-  height: 200px;
-  width: 250px;
-  display: flex;
-  align-items: center;
-  padding: 15px;
-  perspective: 100px;
 }
 
 .slide-track img{
