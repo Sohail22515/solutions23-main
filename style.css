@@ -76,9 +76,9 @@ body {
 }
 
 .solutions-logo {
-  margin-top: 2vw;
-  margin-left: 2vw;
-  height: 2.5vw;
+  margin-top: 1vw;
+  /* margin-left: 2vw; */
+  height: 5vw;
 }
 
 .main-body {
