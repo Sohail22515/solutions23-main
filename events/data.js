@@ -1,56 +1,56 @@
 const events = [
   // coding category id=0
-  [["SHORTEST<br>CODE"], ["SHE CODE"], ["ByPASS CTF"]],
+  [["1","./images_arts/1.jpg"], ["2", "./images_arts/2.jpg"], ["POSTER", "./images_arts/3.jpeg"], ["FREESTYLE", "./images_arts/4.jpg"], ["FIND AND PAINT", "./images_arts/5.jpg"], ["FACE" ,"./images_arts/6.jpg"]],
 
   // robotics category id=1
   [
-    ["MAZE RUNNER"],
-    ["ROBO-CLENCH"],
-    ["ROBO SOCCER"],
-    ["RUSTY WHEELS"],
-    ["DRONE DRAG"],
+    ["CLASSICAL / SEMI CLASSICAL & FOLK", "bhdbh"],
+    ["WESTERN / FREESTYLE"],
+    ["GROUP"],
+    ["STREET"],
+    // ["DRONE DRAG"],
   ],
 
   // open category id=2
   [
-    ["PLACEMENT APTI"],
-    ["TECH STORM"],
-    ["IDEA PRESENTATION"],
-    ["PHOTOGRAPHY"],
-    ["MOVIE MAKING"],
-    ["SCHOOL MODEL MAKING"],
-    ["HOW UNICORN"],
-    ["SOLID WORKS"],
+    ["BASKETBALL"],
+    ["CRICKET"],
+    ["VOLLEYBALL"],
+    ["CHESS"],
+    ["BADMINTON"],
+    ["TABLE TENNIS"],
+    // ["HOW UNICORN"],
+    // ["SOLID WORKS"],
   ],
 
   // machine learning category id=3
-  [["PROJECT JUPYTER"], ["FLASH 500"]],
+  [["INDIAN SOLO & DUET"], ["WESTERN SOLO & DUET"], ["GROUP SONG"], ["BATTLE OF BANDS"]],
 
   // game dev & cyber sec. category id=4
-  [["IMAGINATE"], ["AR-CADE"]],
+  [["MONOACT / DUET ACT"], ["CONVENTIONAL DRAMA"], ["NUKKAD NATAK"]],
 
   // gaming category id=5
-  [["VALORANT"], ["CLASH ROYALE"]],
+  [["CREATIVE WRITING"], ["DEBATE"], ["CAPTION WRITING"], ["QUIZ-GENERAL"], ["QUIZ-ANIME"], ["MEME"], ["JAM"], ["OPEN MIC"], ["SHARK TANK"]],
 ];
 
 const category_img = [
   // coding category id=0
-  "./images/coding.svg",
+  "./images/arts.svg",
 
   // robotics category id=1
-  "./images/robotics.svg",
+  "./images/dance.svg",
 
   // open category id=2
-  "./images/open_events.svg",
+  "./images/sports.svg",
 
   // machine learning category id=3
-  "./images/machine-learning.svg",
+  "./images/music.svg",
 
   // game dev & cyber sec. category id=4
-  "./images/gdxr.svg",
+  "./images/drama.svg",
 
   // gaming category id=5
-  "./images/gaming.svg",
+  "./images/literary.svg",
 ];
 
 export { events, category_img };

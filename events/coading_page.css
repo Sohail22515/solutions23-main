@@ -118,7 +118,26 @@ body {
   backdrop-filter: blur(10px);
   transition: all 0.1s ease-in-out;
   border: 5px solid rgba(102, 214, 180, 0.863);
+  overflow: hidden;
 }
+.img_parent{
+  height: 22rem;
+  justify-content: center;
+  /* border: 4px solid rgb(49, 206, 177); */
+  
+}
+
+.coading_event img{
+  height: 30rem;
+}
+
+@media only screen and (max-width:760px){
+  .coading_event img{
+    height: 25rem;
+  }
+}
+
+
 
 .coading_event:hover,
 .coading_event:active {
