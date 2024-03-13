@@ -30,7 +30,7 @@ const events = [
   [["MONOACT / DUET ACT"], ["CONVENTIONAL DRAMA"], ["NUKKAD NATAK"]],
 
   // gaming category id=5
-  [["CREATIVE WRITING"], ["DEBATE"], ["CAPTION WRITING"], ["QUIZ-GENERAL"], ["QUIZ-ANIME"], ["MEME"], ["JAM"], ["OPEN MIC"], ["SHARK TANK"]],
+  [["CREATIVE WRITING","./images_literary/3.JPG"], ["DEBATE","./images_literary/1.JPG"], ["CAPTION WRITING","./images_literary/2.JPG"], ["QUIZ-GENERAL",,"./images_literary/4.JPG"], ["QUIZ-ANIME","./images_literary/5.JPG"], ["MEME","./images_literary/6.JPG"], ["JAM","./images_literary/5.JPG"], ["OPEN MIC","./images_literary/6.JPG"], ["SHARK TANK","./images_literary/4.JPG"]],
 ];
 
 const category_img = [
