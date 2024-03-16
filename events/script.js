@@ -13,11 +13,13 @@ cat_img.innerHTML=`<img class="category_img" src="${category_img[eventcat]}" alt
 
 for(let i=0;i<data[eventcat].length;i++){
     let div=`<div class="img_parent">
+    <div class="img_parent" onclick="window.location='../Results_page/index.html?eventcat=${eventcat}&eventid=${i}'">
     <div class="coading_event" onclick="window.location='../Results_page/index.html?eventcat=${eventcat}&eventid=${i}'">
-    
     <span><img src=${data[eventcat][i][1]} alt=""></span>
+   
+    
     </div>
-         
+    <span><p>regsiter</p>
     </div>`
     container.innerHTML+=div;
 }
