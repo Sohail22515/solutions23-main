@@ -349,29 +349,11 @@ body {
 }
 
 .about-us-video {
-  /* position: relative; */
-  /* float: none; */
   width: 100%;
   height: 100%;
   flex-grow: 1;
   display: flex;
   justify-content: center;
-}
-
-/* .about-us-video img {
-  height: 50.5rem;
-  scale: 1.2;
-} */
-
-.about-us-video iframe {
-  /* display: none; */
-  /* position: absolute; */
-  justify-self: center;
-  width: 100%;
-  height: 100%;
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-45%, -60%); */
 }
 
 .discord-img {
